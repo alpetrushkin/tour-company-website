@@ -1,3 +1,40 @@
 body {
-   background: black;
+   margin: 0;
+   font-family: 'Inter', sans-serif;
+}
+
+.header {
+   background: url("bg.png");
+   background-size: cover;
+   height: 100vh;
+}
+
+.nav {
+   display: flex;
+   justify-content: center;
+   padding-top: 34px;
+}
+
+.nav-item {
+   text-decoration: none;
+   margin-right: 86px;
+   color: #fff;
+   font-weight: 700;
+   font-size: 38px;
+}
+.nav-item:hover {
+   color: #f64040;
+}
+.nav-item:last-child {
+   margin-right: 0;
+}
+
+.title {
+   font-weight: 900;
+   font-size: 80px;
+   line-height: 94px;
+   text-align: center;
+   margin: 146px auto 0;
+   color: #FFFFFF;
+   width: 1174px;
 }
